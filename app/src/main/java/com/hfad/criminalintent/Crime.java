@@ -25,6 +25,7 @@ public class Crime
 
     public void setTitle(String title) {
         mTitle = title;
+        mDate = new Date (  );
     }
 
     public Date getDate() {
@@ -32,7 +33,7 @@ public class Crime
     }
 
     public void setDate(Date date) {
-        mDate = date;
+        mDate = new Date (  );
     }
 
     public boolean isSolved() {
