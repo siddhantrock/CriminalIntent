@@ -62,7 +62,7 @@ public class CrimeFragment extends Fragment
             }
         } );
 
-        mDateButton.setText ( "sidd" );
+        mDateButton.setText ( mCrime.getDate ().toString () );
         mDateButton.setEnabled ( false );
         mTitleField.addTextChangedListener ( new TextWatcher ( ) {
             @Override
